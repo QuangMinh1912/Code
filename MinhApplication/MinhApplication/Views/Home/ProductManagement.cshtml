@@ -1,0 +1,78 @@
+﻿
+@{
+    ViewBag.Title = "ProductManagement";
+}
+
+<h2>Product Management</h2>
+<p>
+    <img src="~/Content/lucci_logo.jpg" alt="logo_lucci" width="100" height="50">
+    <b> Quản Lý Sản Phẩm </b>
+</p>
+<hr>
+<h4>Nhập thông tin sản phẩm</h4>
+<form>
+    <fieldset style="width: 300px; background-color: whitesmoke">
+        <table>
+            <tbody>
+                <tr>
+                    <td style="width: 40%"><label for="txtMa">Mã</label></td>
+                    <td style="width: 60%"><input type="text" name="txtMa" value="" id="txtMa"></td>
+                </tr>
+                <tr>
+                    <td><label for="txtTen">Tên</label></td>
+                    <td><input type="text" name="txtTen" value="" id="txtTen"></td>
+                </tr>
+                <tr>
+                    <td><label for="txtSL">Số lượng</label></td>
+                    <td><input type="text" name="txtSL" value="" id="txtSL"></td>
+                </tr>
+                <tr>
+                    <td><label for="txtDG">Đơn giá</label></td>
+                    <td><input type="text" name="txtDG" value="" id="txtDG"></td>
+                </tr>
+                <tr>
+                    <td><label for="txtTH">Thương hiệu</label></td>
+                    <td><input type="text" name="txtTH" value="" id="txtTH"></td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>
+</form>
+<p>
+    <button name="btnSave">Save</button>
+    <button name="btnDelete">Delete</button>
+    <button name="btnUpdate">Update</button>
+</p>
+<table style="width: auto">
+    <tbody>
+        <tr style="color: white; background-color: saddlebrown">
+            <td>Mã</td>
+            <td>Tên</td>
+            <td>Số lượng</td>
+            <td>Đơn giá</td>
+            <td>Thương hiệu</td>
+        </tr>
+        <tr>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+    </tbody>
+</table>
+   <input type="button" name="btnTKSP" value="Tìm kiếm sản phẩm" />
